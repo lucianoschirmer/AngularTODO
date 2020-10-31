@@ -15,5 +15,8 @@ export class AppComponent {
     this.todos.push('cortar o cabelo');
   }
 
+  alteratexto() {
+    this.title = 'Teste';
+  }
 
 }
