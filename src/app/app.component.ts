@@ -16,8 +16,16 @@ export class AppComponent {
     this.todos.push(new Todo(3, 'cortar o cabelo', false));
   }
 
-  alteratexto() {
-    this.title = 'Teste';
+  remove() {
+
+  }
+
+  markAsDone() {
+
+  }
+
+  markAsUndone() {
+
   }
 
 }
