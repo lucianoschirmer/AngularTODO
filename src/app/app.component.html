@@ -2,5 +2,6 @@
 <ul>
   <li *ngFor="let todo of todos">{{ todo.id }}. {{ todo.title }}
     | <button *ngIf="!todo.done">REMOVER</button> |
+    | <button *ngIf="todo.done">REFAZER</button> |
     <button>CONCLUIR</button></li>
 </ul>
