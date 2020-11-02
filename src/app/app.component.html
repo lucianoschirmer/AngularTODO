@@ -6,7 +6,7 @@
     <button (click)="remove(todo)">CONCLUIR</button></li>
 </ul>
 
-<form>
+<form [formGroup]="form">
   <fieldset>
     <label>Tarefa: </label>
     <input input="text">
