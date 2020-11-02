@@ -26,6 +26,9 @@ export class AppComponent {
     this.todos.push(new Todo(3, 'cortar o cabelo', false));
   }
 
+  add() {
+
+  }
   remove(todo: Todo) {
     const index = this.todos.indexOf(todo);
     if (index !== -1) {
