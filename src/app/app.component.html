@@ -10,7 +10,7 @@
   <fieldset>
     <label>Tarefa: </label>
     <input input="text" placeholder="Título da Tarefa" maxlength="60" formControlName="title">
-    <small>Este campo deve conter entre 3 e 60 caracteres</small>
+    <small *ngIf="form.controls.title.invalid">Este campo deve conter entre 3 e 60 caracteres</small>
     <button>Salvar</button>
   </fieldset>
 </form>
