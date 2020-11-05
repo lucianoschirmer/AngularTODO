@@ -1,4 +1,11 @@
 body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    text-align: center;    
+
     background: #3023ae;
     background: -moz-linear-gradient(60deg, #3023ae 0%, #c86dd7 100%);
     background: -webkit-linear-gradient(60deg, #3023ae 0%, #c86dd7 100%);
