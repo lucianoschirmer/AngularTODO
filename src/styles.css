@@ -2,4 +2,6 @@ body {
     background: #3023ae;
     background: -moz-linear-gradient(60deg, #3023ae 0%, #c86dd7 100%);
     background: -webkit-linear-gradient(60deg, #3023ae 0%, #c86dd7 100%);
+    background: linear-gradient(60deg, #3023ae 0%, #c86dd7 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(starColorstr='#3023ae',endColor)
 }
