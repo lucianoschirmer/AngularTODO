@@ -1,4 +1,4 @@
 body {
     background: #3023ae;
-    background: -moz-linear-gradient();
+    background: -moz-linear-gradient(60deg, #3023ae 0%, #c86dd7 100%);
 }
