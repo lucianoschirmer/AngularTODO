@@ -13,6 +13,10 @@ body {
     filter: progid:DXImageTransform.Microsoft.gradient(starColorstr='#3023ae',endColor)
 }
 
+button {
+    cursor: pointer;
+}
+
 ul {
     text-align: left;
     margin: 10px;
@@ -23,4 +27,4 @@ ul {
     -webkit-box-shadow: 3px 4px 14px 0px rgba(0, 0, 0, 0.39); 
     -moz-box-shadow: 3px, 4px, 14px, 0px rgba(0, 0, 0, 0.39); 
     box-shadow: 3px, 4px, 14px, 0px rgba(0, 0, 0, 0.39); 
-}
+}   
