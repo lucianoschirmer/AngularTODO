@@ -56,3 +56,11 @@ li>button:hover {
     color: #fff;
     text-shadow: 3px 5px #000;    
 }
+
+.text-center {
+    text-align: center;
+}
+
+.button {
+    background-color: #000;
+}
