@@ -1,5 +1,5 @@
 <h1 class="title animated jackInTheBox">{{ title }}</h1>
-<ul class="animated flipInX" *ngIf="mode=='list'">
+<ul>
   <p *ngIf="todos.length==0"><small>Não tem nenhuma tarefa hoje!</small></p>
   <li *ngFor="let todo of todos">{{ todo.id }}. {{ todo.title }}
     | <button *ngIf="!todo.done" (click)="markAsDone(todo)">REMOVER</button> |
