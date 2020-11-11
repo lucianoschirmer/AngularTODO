@@ -7,12 +7,14 @@
     <button (click)="remove(todo)">CONCLUIR</button></li>
 </ul>
 
-<form [formGroup]="form">
-  <fieldset>
-    <label>Tarefa: </label>
-    <input input="text" placeholder="Título da Tarefa" maxlength="60" formControlName="title">
-    <small *ngIf="form.controls.title.invalid && !form.controls.title.pristine">Este campo deve conter entre 3 e 60
-      caracteres</small>
-    <button class="button" [disabled]="form.invalid" (click)="add()">Salvar</button>
-  </fieldset>
-</form>
+<div id="modal">
+  <form [formGroup]="form">
+    <fieldset>
+      <label>Tarefa: </label>
+      <input input="text" placeholder="Título da Tarefa" maxlength="60" formControlName="title">
+      <small *ngIf="form.controls.title.invalid && !form.controls.title.pristine">Este campo deve conter entre 3 e 60
+        caracteres</small>
+      <button class="button" [disabled]="form.invalid" (click)="add()">Salvar</button>
+    </fieldset>
+  </form>
+</div>
